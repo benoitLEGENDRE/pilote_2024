@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/06/24||15:39:18" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Pilote TP32" uid="Pilote TP32" version="925">
+<AssemblyFile name="Pilote TP32.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Ensemble corps-1" uid="Ensemble corps-1" grounded="true" entityUid="Ensemble Corps" rigid="true">
+<Transform>
+<Rotation>-1 1.3285036087883987e-16 0 1.2640595016685622e-16 0.9977740640890792 -0.066685208488555719 -1.0085868228136961e-16 -0.066685208488555719 -0.9977740640890792</Rotation>
+<Translation>-0.03793476165445233 -0.0069141678935997078 -0.21047141633203445</Translation>
+</Transform>
+<Instance name="Moteur-1" uid="Moteur-1" entityUid="Moteur" rigid="true">
+<Transform>
+<Rotation>-0.16171778857752797 0 -0.986837046759795 -0.98683704675979511 1.5265566588595902e-16 0.16171778857752805 -1.5265566588595902e-16 1 0</Rotation>
+<Translation>-0.071490238898624991 0.0089301375892318242 -0.22496971275262079</Translation>
+</Transform>
+<Instance name="Stator-1" uid="Stator-1" grounded="true" entityUid="Stator*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Silent bloc arrière-1" uid="Silent bloc arrière-1" entityUid="Silent bloc arrière*:*Défaut">
+<Transform>
+<Rotation>-0.99999999999999989 0 1.6653345369377348e-16 1.6653345369377348e-16 0 0.99999999999999989 0 1 0</Rotation>
+<Translation>-0.047549073000001787 0.074545996329219058 -0.021907042000000876</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.83921568627450982" g="0.81176470588235294" b="0.67843137254901964" a="1"/>
+<Diffuse r="0.83921568627450982" g="0.81176470588235294" b="0.67843137254901964" a="1"/>
+<Specular r="0.83921568627450982" g="0.81176470588235294" b="0.67843137254901964" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Silent bloc avant-1" uid="Silent bloc avant-1" entityUid="Silent bloc avant*:*Défaut">
+<Transform>
+<Rotation>0.98683704675979489 0.161717788577529 1.1526017180835759e-16 1.8041124150158794e-16 -3.8818441378353401e-16 -1 -0.161717788577529 0.98683704675979489 -4.1225046750648824e-16</Rotation>
+<Translation>0.04338042838897084 0.0085648180000000226 -0.029308211564994285</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.83921568627450982" g="0.81176470588235294" b="0.67843137254901964" a="1"/>
+<Diffuse r="0.83921568627450982" g="0.81176470588235294" b="0.67843137254901964" a="1"/>
+<Specular r="0.83921568627450982" g="0.81176470588235294" b="0.67843137254901964" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="Platine support mécanisme-1" visible="false" uid="Platine support mécanisme-1" grounded="true" entityUid="Platine support mécanisme*:*Défaut">
+<Transform>
+<Rotation>-9.4368957093138306e-16 1.0000000000000002 1.1806573901212116e-16 1 9.9920072216264108e-16 2.3592239273284576e-16 2.3592239273284576e-16 1.1806573901212136e-16 -1</Rotation>
+<Translation>-0.06902431676761614 -0.00083208340488155792 -0.11686863610218179</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.80000000000000004" g="0.82352941176470584" b="0.66666666666666663" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.82352941176470584" b="0.66666666666666663" a="1"/>
+<Specular r="0.80000000000000004" g="0.82352941176470584" b="0.66666666666666663" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Corps inferieur-1" uid="Corps inferieur-1" grounded="true" entityUid="Corps inferieur*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.031309813200844097 0.025382251818360787 0.2215951052473793</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.90588235294117647" g="0.89411764705882346" b="0.88627450980392153" a="1"/>
+<Diffuse r="0.90588235294117647" g="0.89411764705882346" b="0.88627450980392153" a="1"/>
+<Specular r="0.90588235294117647" g="0.89411764705882346" b="0.88627450980392153" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Boitier de roulement-1" uid="Boitier de roulement-1" entityUid="Boitier de roulement*:*Défaut">
+<Transform>
+<Rotation>0 1 1.1806573901212136e-16 1 0 2.3592239273284576e-16 2.3592239273284576e-16 1.1806573901212166e-16 -1</Rotation>
+<Translation>-0.048496757280469587 0.00070803783279338537 -0.11986863610218179</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.81176470588235294" b="0.87058823529411766" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.81176470588235294" b="0.87058823529411766" a="1"/>
+<Specular r="0.77647058823529413" g="0.81176470588235294" b="0.87058823529411766" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Vis2-7" uid="Vis2-7" entityUid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C">
+<Transform>
+<Rotation>-1.3286152556431185e-16 0.99162863081643782 0.12912264923365291 0 0.1291226492336528 -0.99162863081643782 -1 -1.3010426069826053e-16 0</Rotation>
+<Translation>-0.073754287938709223 -0.0048855810654036911 -0.14532371642340169</Translation>
+</Transform>
+</Instance>
+<Instance name="courroie crantée-2" uid="courroie crantée-2" grounded="true" entityUid="Courroie crantée*:*Défaut">
+<Transform>
+<Rotation>-0.44566227800902519 0.89520116954783191 -1.1596204693973633e-16 -0.89520116954783202 -0.44566227800902519 -2.2204460492503131e-16 -2.5673907444456745e-16 0 0.99999999999999989</Rotation>
+<Translation>-0.031496757280470668 0.0082080378327930997 -0.14201514205961513</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="1" g="1" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Bague joint-1" uid="Bague joint-1" entityUid="Bague joint*:*Défaut">
+<Transform>
+<Rotation>0.26620221985485309 0 -0.96391720502559175 -0.96391720502559175 2.4980018054066022e-16 -0.26620221985485315 2.3592239273284576e-16 1 0</Rotation>
+<Translation>-0.031309813200844097 0.0088822518183607792 0.20237500224737931</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.61176470588235299" g="0.84705882352941175" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.61176470588235299" g="0.84705882352941175" b="0.89411764705882346" a="1"/>
+<Specular r="0.61176470588235299" g="0.84705882352941175" b="0.89411764705882346" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Silent bloc platine-1" uid="Silent bloc platine-1" entityUid="Silent bloc platine*:*Défaut">
+<Transform>
+<Rotation>0.99996663297893351 0.0081690225103631629 -3.0990249515890869e-16 -0.0081690225103631647 0.99996663297893351 -2.3592239273284576e-16 3.0802183720313181e-16 2.3592239273284576e-16 1</Rotation>
+<Translation>-0.12001499086730891 0.023018647692565657 -0.11899363610218179</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.81960784313725488" g="0.81960784313725488" b="0.81960784313725488" a="1"/>
+<Diffuse r="0.81960784313725488" g="0.81960784313725488" b="0.81960784313725488" a="1"/>
+<Specular r="0.81960784313725488" g="0.81960784313725488" b="0.81960784313725488" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Joint torique 1-1" uid="Joint torique 1-1" entityUid="Joint torique 1*:*Défaut">
+<Transform>
+<Rotation>0.99946819862805758 0 -0.032608586770751173 -0.032608586770751173 1.248945569971655e-16 -0.99946819862805758 0 1 1.248336682309686e-16</Rotation>
+<Translation>-0.031309813200844097 0.0088822518183607861 0.20499426140252042</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0" b="1" a="1"/>
+<Diffuse r="0.50196078431372548" g="0" b="1" a="1"/>
+<Specular r="0.50196078431372548" g="0" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Vis2-2" uid="Vis2-2" entityUid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C">
+<Transform>
+<Rotation>-1.1806573901212136e-16 2.3073728034636937e-16 -1 -2.3592239273284576e-16 1 2.3073728034636942e-16 1 2.3592239273284576e-16 -1.1806573901212131e-16</Rotation>
+<Translation>-0.048496757280469538 0.00070803783279344955 -0.12696863610218179</Translation>
+</Transform>
+</Instance>
+<Instance name="Vis2-1" uid="Vis2-1" entityUid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C">
+<Transform>
+<Rotation>1.3286152556431224e-16 0.31133977983727734 -0.95029865910190336 0 0.95029865910190336 0.31133977983727734 1 0 1.34899544391426e-16</Rotation>
+<Translation>-0.050996757280469526 0.016708037832793458 -0.12696863610218179</Translation>
+</Transform>
+</Instance>
+<Instance name="Nez corps-1" uid="Nez corps-1" entityUid="Nez corps*:*Défaut">
+<Transform>
+<Rotation>0.97539171865799268 0.22047901299989395 0 -0.220479012999894 0.97539171865799279 0 0 0 1</Rotation>
+<Translation>-0.027671909486345847 0.024976215176217672 0.23659510524737937</Translation>
+</Transform>
+</Instance>
+<Instance name="Vis2-3" uid="Vis2-3" entityUid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C">
+<Transform>
+<Rotation>-1.1806573901212136e-16 2.3073728034636937e-16 -1 -2.3592239273284576e-16 1 2.3073728034636942e-16 1 2.3592239273284576e-16 -1.1806573901212131e-16</Rotation>
+<Translation>-0.014496757280469535 0.00070803783279344435 -0.12696863610218176</Translation>
+</Transform>
+</Instance>
+<Instance name="Vis2-4" uid="Vis2-4" entityUid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C">
+<Transform>
+<Rotation>-1.1806573901212136e-16 2.3073728034636937e-16 -1 -2.3592239273284576e-16 1 2.3073728034636942e-16 1 2.3592239273284576e-16 -1.1806573901212131e-16</Rotation>
+<Translation>-0.01199675728046953 0.016708037832793451 -0.12696863610218179</Translation>
+</Transform>
+</Instance>
+<Instance name="Vis2-6" uid="Vis2-6" entityUid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C">
+<Transform>
+<Rotation>-1.3286152556431229e-16 -0.65160423752852936 0.75855910622367728 0 0.75855910622367761 0.65160423752852914 -1 1.1102230246251565e-16 0</Rotation>
+<Translation>-0.069226189858538456 0.022745856243870575 -0.14532371642340172</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Ensemble vis d&apos;entrainement-1" uid="Ensemble vis d&apos;entrainement-1" entityUid="Ensemble Vis d&apos;entrainement" rigid="true">
+<Transform>
+<Rotation>0.076779023176320585 -0.99704813404373316 5.6638721490642752e-16 -0.99482876879724857 -0.076608117991427013 -0.066685208488556136 0.066488362691832253 0.0051200251680600575 -0.9977740640890792</Rotation>
+<Translation>-0.0064380043739824455 0.011002879783439374 -0.065474829179391389</Translation>
+</Transform>
+<Instance name="Vis d&apos;entrainement-1" uid="Vis d&apos;entrainement-1" grounded="true" entityUid="Vis d&apos;entrainement*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Poulie réceptrice Z=71-1" uid="Poulie réceptrice Z=71-1" entityUid="Poulie réceptrice Z=71*:*Défaut">
+<Transform>
+<Rotation>0.41285490608280212 0.91079680858211209 0 0.91079680858211209 -0.41285490608280218 0 0 0 -1</Rotation>
+<Translation>0 0 0.013000000000000012</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.91764705882352937" g="0.62352941176470589" b="0.59215686274509804" a="1"/>
+<Diffuse r="0.91764705882352937" g="0.62352941176470589" b="0.59215686274509804" a="1"/>
+<Specular r="0.91764705882352937" g="0.62352941176470589" b="0.59215686274509804" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Guide avant de vis-1" uid="Guide avant de vis-1" entityUid="Guide avant de vis*:*Défaut">
+<Transform>
+<Rotation>0 1 -2.2817034719957441e-16 0 2.0355895788415346e-16 1 1 -1.1102230246251565e-16 0</Rotation>
+<Translation>0 0 0.36267381400000009</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.8901960784313725" g="0.30588235294117649" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.8901960784313725" g="0.30588235294117649" b="0.20000000000000001" a="1"/>
+<Specular r="0.8901960784313725" g="0.30588235294117649" b="0.20000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Goupille-2" uid="Goupille-2" entityUid="Goupille*:*Default">
+<Transform>
+<Rotation>1.0646865333807654e-16 0.93531012214073839 0.35382902003803618 1.0000000000000002 -1.2923689896027213e-16 0 0 0.35382902003803618 -0.93531012214073861</Rotation>
+<Translation>0 -0.0054999999999999841 0.0020000000000000295</Translation>
+</Transform>
+</Instance>
+<Instance name="entretoise-1" uid="entretoise-1" entityUid="Entretoise*:*Défaut">
+<Transform>
+<Rotation>1.3877787807814454e-16 0.5654916325961733 0.8247540320990947 0 0.8247540320990947 -0.5654916325961733 -1 0 1.1396712870583974e-16</Rotation>
+<Translation>0 0 0.32609257700000016</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.98431372549019602" g="0.31372549019607843" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.98431372549019602" g="0.31372549019607843" b="0.11764705882352941" a="1"/>
+<Specular r="0.98431372549019602" g="0.31372549019607843" b="0.11764705882352941" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Guide arrière de vis-1" uid="Guide arrière de vis-1" entityUid="Guide arrière de vis*:*Défaut">
+<Transform>
+<Rotation>1.3877787807814457e-16 0.18373727757495212 0.9829753877027364 0 0.98297538770273651 -0.18373727757495212 -1.0000000000000002 0 1.1102230246251565e-16</Rotation>
+<Translation>0 0 0.32329360800000007</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.91764705882352937" g="0.14117647058823529" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.91764705882352937" g="0.14117647058823529" b="0.10196078431372549" a="1"/>
+<Specular r="0.91764705882352937" g="0.14117647058823529" b="0.10196078431372549" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Goupille-1" uid="Goupille-1" entityUid="Goupille*:*Default">
+<Transform>
+<Rotation>1.0646865333807651e-16 -0.20319331287816222 0.97913864064370237 1 0 -1.0424757250060983e-16 0 0.97913864064370237 0.20319331287816222</Rotation>
+<Translation>0 -0.0074999999999999824 0.35600000000000021</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0" b="0.50196078431372548" a="1"/>
+<Diffuse r="1" g="0" b="0.50196078431372548" a="1"/>
+<Specular r="1" g="0" b="0.50196078431372548" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Roulement a billes 6BC02-1" uid="Roulement a billes 6BC02-1" entityUid="Roulement a billes 6BC02*:*Défaut">
+<Transform>
+<Rotation>1.1102230246251563e-16 0 -1 0 1 0 1 0 1.1102230246251563e-16</Rotation>
+<Translation>0 0 0.020000000000000004</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="Ensemble Axe Moteur-1" uid="Ensemble Axe Moteur-1" entityUid="Ensemble Axe Moteur" rigid="true">
+<Transform>
+<Rotation>-3.8727701601182204e-16 0.9998729239075661 0.015941644724887113 -0.06668520848855522 0.015906159645414818 -0.99764727085988292 -0.9977740640890792 -0.00106307190212996 0.066676734392837361</Rotation>
+<Translation>0.071942857505919916 0.013211853600744205 -0.05242963830010032</Translation>
+</Transform>
+<Instance name="poulie motrice-1" uid="poulie motrice-1" entityUid="Poulie motrice" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048888423999999986 -0.027009343999999998 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Instance name="poulie motrice Z=20-1" uid="poulie motrice Z=20-1" grounded="true" entityUid="Poulie motrice Z=20*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.84705882352941175" g="0.5725490196078431" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.84705882352941175" g="0.5725490196078431" b="0.93725490196078431" a="1"/>
+<Specular r="0.84705882352941175" g="0.5725490196078431" b="0.93725490196078431" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Flasque poulie-1" uid="Flasque poulie-1" entityUid="Flasque poulie*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016111976710008774 -0.039278342868092758 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.81176470588235294" g="0.43529411764705883" b="0.84313725490196079" a="1"/>
+<Diffuse r="0.81176470588235294" g="0.43529411764705883" b="0.84313725490196079" a="1"/>
+<Specular r="0.81176470588235294" g="0.43529411764705883" b="0.84313725490196079" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="rotor-1" uid="rotor-1" grounded="true" entityUid="Rotor*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="0" b="1" a="1"/>
+<Diffuse r="1" g="0" b="1" a="1"/>
+<Specular r="1" g="0" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="Ensemble Tige-2" uid="Ensemble Tige-2" entityUid="Ensemble Tige" rigid="true">
+<Transform>
+<Rotation>-0.69972235230876123 -0.55737223682917181 -0.44690582821388602 -0.62782305711833808 0.77825799898645842 0.012357020845565198 0.34092057525188751 0.28922426700683201 -0.89449565943289122</Rotation>
+<Translation>-0.12636232160976602 -0.10375549431865266 0.0075197298134150742</Translation>
+</Transform>
+<Instance name="Joint torique 2-1" uid="Joint torique 2-1" entityUid="Joint torique 2*:*Défaut">
+<Transform>
+<Rotation>0.29829519644280122 -0.38203330758333698 0.8746831012864521 0.34047876924489123 0.89870523040238082 0.27641113678881962 -0.89168053891101307 0.21535891145791686 0.39815368362358078</Rotation>
+<Translation>-0.20164399872198405 -0.022380648172120869 0.075283976373177824</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="1" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Guide ecrou-1" uid="Guide ecrou-1" entityUid="Guide ecrou*:*Défaut">
+<Transform>
+<Rotation>0.70144227533666814 -0.64730109697857552 -0.29829519644280272 0.55536112864890474 0.7587148505725323 -0.34047876924488985 0.4467132762257377 0.073164645635942299 0.89168053891101307</Rotation>
+<Translation>-0.20501117191841364 -0.015443127462401713 0.071903633153162422</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.78431372549019607" g="0.92156862745098034" b="0.58039215686274503" a="1"/>
+<Diffuse r="0.78431372549019607" g="0.92156862745098034" b="0.58039215686274503" a="1"/>
+<Specular r="0.78431372549019607" g="0.92156862745098034" b="0.58039215686274503" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Tige de vérin-1" uid="Tige de vérin-1" grounded="true" entityUid="Tige de vérin*:*Défaut">
+<Transform>
+<Rotation>-0.70144227533667114 -0.64730109697857297 0.29829519644280228 -0.55536112864890164 0.75871485057253418 0.34047876924489001 -0.4467132762257372 0.073164645635944603 -0.89168053891101318</Rotation>
+<Translation>-0.2980614022714414 -0.13243296978435271 0.36350022451469322</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.75686274509803919" g="0.84705882352941175" b="0.25490196078431371" a="1"/>
+<Diffuse r="0.75686274509803919" g="0.84705882352941175" b="0.25490196078431371" a="1"/>
+<Specular r="0.75686274509803919" g="0.84705882352941175" b="0.25490196078431371" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Nez vérin-1" uid="Nez vérin-1" entityUid="Nez vérin*:*Défaut">
+<Transform>
+<Rotation>-0.298295196442802 0.64915992286850555 0.69972235230876123 -0.34047876924489096 -0.75723866601325185 0.55737223682917203 0.89168053891101295 -0.071979144450505128 0.44690582821388541</Rotation>
+<Translation>-0.33308495488026713 -0.17240939658921151 0.46819456970440609</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.71764705882352942" g="0.8901960784313725" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.71764705882352942" g="0.8901960784313725" b="0.10980392156862745" a="1"/>
+<Specular r="0.71764705882352942" g="0.8901960784313725" b="0.10980392156862745" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Ecrou à billes-1" uid="Ecrou à billes-1" entityUid="Ecrou à billes*:*Défaut">
+<Transform>
+<Rotation>0.29829519644280134 -0.6473010969785753 0.70144227533666903 0.34047876924489112 0.75871485057253196 0.55536112864890397 -0.89168053891101318 0.073164645635944464 0.44671327622573731</Rotation>
+<Translation>-0.20358584202308039 -0.0043549313439660269 0.055923254587620465</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.71764705882352942" g="0.8901960784313725" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.71764705882352942" g="0.8901960784313725" b="0.10980392156862745" a="1"/>
+<Specular r="0.71764705882352942" g="0.8901960784313725" b="0.10980392156862745" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Butée arrière-1" uid="Butée arrière-1" entityUid="Butée arrière*:*Défaut">
+<Transform>
+<Rotation>0.29829519644280145 -0.3597564469163031 0.88407877176262295 0.34047876924489145 0.90541795661720648 0.25355971984644221 -0.89168053891101295 0.22537440568369693 0.39257125950594746</Rotation>
+<Translation>-0.1955928198963896 -0.015473738695909315 0.057195457145924132</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.72156862745098038" g="0.98431372549019602" b="0.52549019607843139" a="1"/>
+<Diffuse r="0.72156862745098038" g="0.98431372549019602" b="0.52549019607843139" a="1"/>
+<Specular r="0.72156862745098038" g="0.98431372549019602" b="0.52549019607843139" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="anneau elastique-1" uid="anneau elastique-1" entityUid="anneau elastique*:*B27.8M - 3DM1-14">
+<Transform>
+<Rotation>0.95296244667607977 -0.053689393778388744 -0.298295196442801 -0.05368939377838864 0.93871809223493352 -0.34047876924489123 0.298295196442801 0.34047876924489123 0.89168053891101329</Rotation>
+<Translation>-0.20019074831855804 -0.020721885595104274 0.070939839697989837</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Coaxiale1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ensemble corps-1</Uid>
+<Uid>Platine support mécanisme-1</Uid>
+</InstancePath>
+<Position>0.0090401212376749994 0.037527559487146638 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ensemble Tige-2</Uid>
+<Uid>Nez vérin-1</Uid>
+</InstancePath>
+<Position>-0.12941239224259976 0 0</Position>
+<Axis>-1 0 -1.5221008299208458e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Coaxiale2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ensemble corps-1</Uid>
+<Uid>Boitier de roulement-1</Uid>
+</InstancePath>
+<Position>0.0075000000000000084 0.017000000000000001 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ensemble vis d&apos;entrainement-1</Uid>
+<Uid>Roulement a billes 6BC02-1</Uid>
+</InstancePath>
+<Position>0.0029999999999999888 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ensemble corps-1</Uid>
+<Uid>Boitier de roulement-1</Uid>
+</InstancePath>
+<Position>0.0075000000000000084 0.017000000000000001 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ensemble vis d&apos;entrainement-1</Uid>
+<Uid>Roulement a billes 6BC02-1</Uid>
+</InstancePath>
+<Position>0 0.0084166666666666695 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ensemble corps-1</Uid>
+<Uid>Moteur-1</Uid>
+<Uid>Stator-1</Uid>
+</InstancePath>
+<Position>0 0.081935164791208812 0</Position>
+<Axis>-4.4408920985006262e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Ensemble Axe Moteur-1</Uid>
+<Uid>rotor-1</Uid>
+</InstancePath>
+<Position>-0.10715134020618557 -0.038392259000000012 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ensemble Axe Moteur-1</Uid>
+<Uid>poulie motrice-1</Uid>
+<Uid>Flasque poulie-1</Uid>
+</InstancePath>
+<Position>-0.0066129882899912118 0.03489542786809275 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ensemble corps-1</Uid>
+<Uid>Moteur-1</Uid>
+<Uid>Silent bloc arrière-1</Uid>
+</InstancePath>
+<Position>-0.047549305000000014 0.021907042000000012 0.0060000000000000053</Position>
+<Axis>3.1918911957973251e-16 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<UnknownConstraint name="Hélicoïdale1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Ensemble vis d&apos;entrainement-1</Uid>
+<Uid>Roulement a billes 6BC02-1</Uid>
+</InstancePath>
+<Position>-0.0050495472395356289 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Ensemble Tige-2</Uid>
+<Uid>Tige de vérin-1</Uid>
+</InstancePath>
+<Position>0 0 0.30500000000000005</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<UnknownConstraint name="Contr.Engrenages2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ensemble vis d&apos;entrainement-1</Uid>
+<Uid>Poulie réceptrice Z=71-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Ensemble Axe Moteur-1</Uid>
+<Uid>poulie motrice-1</Uid>
+<Uid>Flasque poulie-1</Uid>
+</InstancePath>
+<Position>-0.0066129882899912118 0.027895427868092747 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Parallel name="Parallèle1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ensemble corps-1</Uid>
+<Uid>Corps inferieur-1</Uid>
+</InstancePath>
+<Position>-0.010750000000000003 -0.013700000000000004 -0.032500000000000029</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Ensemble Tige-2</Uid>
+<Uid>Guide ecrou-1</Uid>
+</InstancePath>
+<Position>-0.010742145997925527 -0.0029743907153787913 0</Position>
+<Axis>-0.99999648011619846 -0.0026532537031390378 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Ensemble Corps" uid="Ensemble Corps" version="1367">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Ensemble Corps.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Moteur" uid="Moteur" version="195">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Moteur.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Ensemble Vis d&apos;entrainement" uid="Ensemble Vis d&apos;entrainement" version="362">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Ensemble Vis d&apos;entrainement.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Ensemble Axe Moteur" uid="Ensemble Axe Moteur" version="162">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Ensemble Axe Moteur.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Poulie motrice" uid="Poulie motrice" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Poulie motrice.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Ensemble Tige" uid="Ensemble Tige" version="667">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Ensemble Tige.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Bague joint" uid="Bague joint*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bague joint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0002513274122871812</Mass>
+<CenterOfMass>0 0.0017201029999999752 0</CenterOfMass>
+<Inertia>1.2775810124599182e-08 2.538406864100545e-08 1.2775810124599179e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bague joint_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Boitier de roulement" uid="Boitier de roulement*:*Défaut" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Boitier de roulement.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0052568810110601993</Mass>
+<CenterOfMass>0.0082880051291496747 0.016999999254451906 0.0038976226468425941</CenterOfMass>
+<Inertia>8.3649762203721821e-07 3.5555098266192781e-07 1.1128180189023758e-06 1.299537156393714e-14 5.5809694302734801e-09 -4.8475112458247604e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Boitier de roulement_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.50196078431372548" b="0.75294117647058822" a="1"/>
+<Diffuse r="0" g="0.39654901960784317" b="0.59482352941176475" a="1"/>
+<Specular r="0" g="0.44172549019607843" b="0.66258823529411759" a="1"/>
+<Emissive r="0" g="0.10541176470588234" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Butée arrière" uid="Butée arrière*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Butée arrière.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030702392304451363</Mass>
+<CenterOfMass>-0.0066140210000000012 0 0</CenterOfMass>
+<Inertia>2.5478764033752768e-07 1.8496080573961053e-07 1.849608057396105e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Butée arrière_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Corps inferieur" uid="Corps inferieur*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Corps inferieur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Corps inferieur_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Courroie crantée" uid="Courroie crantée*:*Défaut" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Courroie crantée.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015225458509377863</Mass>
+<CenterOfMass>0.0040281897907012559 -0.0084736871622555325 0.0029999999999999983</CenterOfMass>
+<Inertia>7.0345972462031434e-07 4.4229580944119614e-07 1.1366202589558839e-06 0 0 1.6037484671878531e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Courroie crantée_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.80784313725490198" g="0.81176470588235294" b="0.77647058823529413" a="1"/>
+<Diffuse r="0.6381960784313726" g="0.6412941176470589" b="0.61341176470588243" a="1"/>
+<Specular r="0.71090196078431378" g="0.71435294117647063" b="0.68329411764705883" a="1"/>
+<Emissive r="0.1696470588235294" g="0.17047058823529412" b="0.16305882352941176" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ecrou à billes" uid="Ecrou à billes*:*Défaut" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ecrou à billes.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0074657745061716095</Mass>
+<CenterOfMass>-0.030907162826197685 -0.013516815999999992 0</CenterOfMass>
+<Inertia>4.3696724294384418e-07 1.0315014415069548e-06 1.0315014415069548e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ecrou à billes_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Entretoise" uid="Entretoise*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Entretoise.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013253594007331937</Mass>
+<CenterOfMass>-0.018907423000000003 0 0</CenterOfMass>
+<Inertia>4.6594666432026363e-08 3.434199488878951e-08 3.434199488878951e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Entretoise_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Flasque poulie" uid="Flasque poulie*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Flasque poulie.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0001555088363526943</Mass>
+<CenterOfMass>-0.0073629882899911812 0.027895427868092754 0</CenterOfMass>
+<Inertia>5.0540371814625727e-09 2.5561764975472923e-09 2.5561764975472919e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Flasque poulie_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Goupille" uid="Goupille*:*Default" version="307">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Goupille.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.5590686177771642e-05</Mass>
+<CenterOfMass>0.0075000000000000006 0 0</CenterOfMass>
+<Inertia>2.2272284120182879e-11 8.1605479489159286e-10 8.1605479489159286e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Goupille_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Guide arrière de vis" uid="Guide arrière de vis*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Guide arrière de vis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00026507188014663903</Mass>
+<CenterOfMass>-0.015706392000000007 0 0</CenterOfMass>
+<Inertia>9.3189332864052775e-09 4.7478239365849791e-09 4.7478239365849791e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Guide arrière de vis_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Guide avant de vis" uid="Guide avant de vis*:*Défaut" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Guide avant de vis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010031767008106642</Mass>
+<CenterOfMass>-0.0087934338593581417 -7.5132197572653543e-11 2.9373143098908513e-10</CenterOfMass>
+<Inertia>3.5403456225872879e-08 2.2102595114128749e-08 2.3938573596912694e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Guide avant de vis_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Guide ecrou" uid="Guide ecrou*:*Défaut" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Guide ecrou.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016892515112128374</Mass>
+<CenterOfMass>1.9092491561945553e-05 -0.0071958532785638867 0.0028908990398452375</CenterOfMass>
+<Inertia>9.566442746400035e-08 9.566442746400035e-08 1.8105238585283199e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Guide ecrou_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint torique 1" uid="Joint torique 1*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Joint torique 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00019739208802178657</Mass>
+<CenterOfMass>0 -0.0027363920000000042 0</CenterOfMass>
+<Inertia>9.9929744561029616e-09 1.9887252868195032e-08 9.9929744561029616e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Joint torique 1_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint torique 2" uid="Joint torique 2*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Joint torique 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0001598875912976477</Mass>
+<CenterOfMass>-0.00086412400000000094 0 0</CenterOfMass>
+<Inertia>1.06101405585119e-08 5.3450421770803624e-09 5.3450421770803624e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Joint torique 2_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nez corps" uid="Nez corps*:*Défaut" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nez corps.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.006880924757435623</Mass>
+<CenterOfMass>-5.4313146043599735e-08 -0.017926997613321085 -0.016164616404109204</CenterOfMass>
+<Inertia>9.2818588406418519e-07 1.1010839220886243e-06 1.0079831991771413e-06 -9.2483670494378592e-08 -1.3153081091340116e-11 -4.6228861197090315e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Nez corps_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nez vérin" uid="Nez vérin*:*Défaut" version="192">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nez vérin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060328869031028836</Mass>
+<CenterOfMass>-0.11517684653642234 0.00017395310628437732 -4.0675635671010487e-09</CenterOfMass>
+<Inertia>2.2313636399536894e-07 4.9534693152213973e-07 4.8913415093062695e-07 -1.1467458186283892e-13 1.582131193017896e-13 -6.0497162057975411e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Nez vérin_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Platine support mécanisme" uid="Platine support mécanisme*:*Défaut" version="240">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Platine support mécanisme.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0089666897744497907</Mass>
+<CenterOfMass>0.014314096756201445 0.024483711330187983 0.0015000000000000002</CenterOfMass>
+<Inertia>4.7692258040700598e-06 1.1696315368937661e-06 5.9254073063021511e-06 0 0 -3.5333990386571637e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Platine support mécanisme_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="0.39654901960784317" g="0.39654901960784317" b="0.79000000000000004" a="1"/>
+<Specular r="0.44172549019607843" g="0.44172549019607843" b="0.88" a="1"/>
+<Emissive r="0.10541176470588234" g="0.10541176470588234" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Poulie motrice Z=20" uid="Poulie motrice Z=20*:*Défaut" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Poulie motrice Z=20.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0009097237652813257</Mass>
+<CenterOfMass>-0.028707153079913828 -0.011382915000000004 0</CenterOfMass>
+<Inertia>1.8678377874137424e-08 1.7118791903251654e-08 1.7118791903251651e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Poulie motrice Z=20_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Poulie réceptrice Z=71" uid="Poulie réceptrice Z=71*:*Défaut" version="380">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Poulie réceptrice Z=71.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011260396193136122</Mass>
+<CenterOfMass>-2.6273274302500958e-06 -5.8293861200082553e-06 0.0052308547030281418</CenterOfMass>
+<Inertia>1.5014256336654454e-06 1.4996519961219909e-06 2.7656294139734328e-06 4.1151438803638021e-10 1.854713251686427e-10 -1.0105000685204635e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Poulie réceptrice Z=71_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rotor" uid="Rotor*:*Défaut" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0418847604552103</Mass>
+<CenterOfMass>-0.015483902052078904 -0.038392258999999998 0</CenterOfMass>
+<Inertia>7.372772224061398e-06 9.2256346777139138e-06 9.2256346777139155e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rotor_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Roulement a billes 6BC02" uid="Roulement a billes 6BC02*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Roulement a billes 6BC02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010172409783611234</Mass>
+<CenterOfMass>0.0030000000000000079 9.673397193874295e-07 0</CenterOfMass>
+<Inertia>5.521445977455622e-08 3.0633020167388388e-08 3.0644119395579945e-08 0 -2.2566509581484792e-13 -3.5838477475465578e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Roulement a billes 6BC02_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Silent bloc arrière" uid="Silent bloc arrière*:*Défaut" version="321">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Silent bloc arrière.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021347235393933666</Mass>
+<CenterOfMass>-0.047384235470297298 0.021907042000000022 0.0018151135456594587</CenterOfMass>
+<Inertia>9.4943621460128316e-08 2.5675520846702666e-07 3.4274762953823787e-07 0 -8.2335950368186423e-10 0</Inertia>
+</MassProperties>
+<GeometryFile name="Silent bloc arrière_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.92156862745098034" g="0.73725490196078436" b="0.1803921568627451" a="1"/>
+<Diffuse r="0.7280392156862745" g="0.58243137254901967" b="0.14250980392156865" a="1"/>
+<Specular r="0.81098039215686268" g="0.64878431372549028" b="0.15874509803921569" a="1"/>
+<Emissive r="0.19352941176470587" g="0.15482352941176472" b="0.037882352941176471" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Silent bloc avant" uid="Silent bloc avant*:*Défaut" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Silent bloc avant.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0022052936325613927</Mass>
+<CenterOfMass>-0.046925397611528787 0.021907042000000026 0.0018477842165015371</CenterOfMass>
+<Inertia>1.064405773702512e-07 2.9237293770053667e-07 3.9303492379067851e-07 0 -1.6702323283837861e-10 0</Inertia>
+</MassProperties>
+<GeometryFile name="Silent bloc avant_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.92156862745098034" g="0.73725490196078436" b="0.1803921568627451" a="1"/>
+<Diffuse r="0.7280392156862745" g="0.58243137254901967" b="0.14250980392156865" a="1"/>
+<Specular r="0.81098039215686268" g="0.64878431372549028" b="0.15874509803921569" a="1"/>
+<Emissive r="0.19352941176470587" g="0.15482352941176472" b="0.037882352941176471" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Silent bloc platine" uid="Silent bloc platine*:*Défaut" version="241">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Silent bloc platine.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0049021101109870298</Mass>
+<CenterOfMass>0.076081745035616336 -0.0091936808949299523 0.00087500000000000089</CenterOfMass>
+<Inertia>1.5798010252930089e-06 4.3923316977200521e-06 5.9224496491989903e-06 0 0 -1.9266951398339403e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Silent bloc platine_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stator" uid="Stator*:*Défaut" version="214">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Stator.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.017111108061452385</Mass>
+<CenterOfMass>1.3179955115651633e-09 0.038311777821678453 1.0146380204036363e-08</CenterOfMass>
+<Inertia>1.268172670209221e-05 5.5213897254260848e-06 1.2674058634991586e-05 1.8975116871633002e-12 0 5.046502008269112e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Stator_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.81176470588235294" b="0.87058823529411766" a="1"/>
+<Diffuse r="0.61341176470588243" g="0.6412941176470589" b="0.68776470588235294" a="1"/>
+<Specular r="0.68329411764705883" g="0.71435294117647063" b="0.76611764705882357" a="1"/>
+<Emissive r="0.16305882352941176" g="0.17047058823529412" b="0.18282352941176469" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tige de vérin" uid="Tige de vérin*:*Défaut" version="235">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tige de vérin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030661944299036951</Mass>
+<CenterOfMass>0 0 0.15249999999999947</CenterOfMass>
+<Inertia>0.00023869046055787797 0.00023869046055787797 1.9930263794373916e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tige de vérin_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Vis d&apos;entrainement" uid="Vis d&apos;entrainement*:*Défaut" version="327">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Vis d&apos;entrainement.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019208472879339057</Mass>
+<CenterOfMass>-6.1700305196088776e-07 1.4947929292069297e-06 0.18396220350768877</CenterOfMass>
+<Inertia>0.00018706370929096589 0.00018706388469273257 1.7407263369602102e-07 -7.2789213893447058e-10 -1.6704993332820931e-09 1.7333161670310675e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Vis d&apos;entrainement_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Vis2" uid="Vis2*:*ISO 7045 - M4 x 8 - Z --- 8C" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Vis2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00021091313083767695</Mass>
+<CenterOfMass>0.0043962399380393204 2.1410888528673584e-14 2.141084753589382e-14</CenterOfMass>
+<Inertia>1.0757480681684207e-09 2.5358155031471036e-09 2.5358155031471032e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Vis2_ISO 7045 - M4 x 8 - Z --- 8C_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="anneau elastique" uid="anneau elastique*:*B27.8M - 3DM1-14" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="anneau elastique.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00012794916329555563</Mass>
+<CenterOfMass>0 0.00027062462332282355 -0.00065000000000000008</CenterOfMass>
+<Inertia>4.3804151720331304e-09 3.3634252318556046e-09 7.7078013895604875e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="anneau elastique_B27.8M - 3DM1-14_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
